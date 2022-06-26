@@ -10,7 +10,7 @@ pipeline {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
                     sh '''
                        
-                        
+                       dir 
                         
                         ./vendor/bin/phpunit
                             

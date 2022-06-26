@@ -6,7 +6,7 @@ pipeline {
         stage ('Build') {
             steps {
                 sh '''
-                     apt-get install php
+                     
                      composer install 
                   
                 '''

@@ -15,14 +15,14 @@ class PessoaTest extends TestCase
     public function teste_create_pessoa(){
 
         $pessoa = \App\Models\Pessoa::create([
-            'nome'=>'Admin User',
-            'sobrenome'=>'12344534343',
-            'email'=>'toyota',
-            'Sexo'=>'2001',
-            'Idade'=>'branco'
+            'nome'=>'Felipe',
+            'sobrenome'=>'teste',
+            'email'=>'teste@teste.com',
+            'Sexo'=>'M',
+            'Idade'=>'12'
 
             
     ]);
-    $this->assertDatabaseHas('pessoas',['nome'=>'Admin User']);
+    $this->assertDatabaseHas('pessoas',['nome'=>'Felipe']);
 }
 }

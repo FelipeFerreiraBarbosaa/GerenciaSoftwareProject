@@ -5,9 +5,9 @@ namespace Tests\Unit;
 use Tests\TestCase;
 use Tests\Validator\RetornaSeDataMenorQueAtual;
 
-final class SeDataMenorQueAtualTest extends TestCase
+final class DataMenorAtualTest extends TestCase
 {
-    // anotação necessária para o PHPUnit interpretar o formato do teste
+   // anotação necessária para o PHPUnit interpretar o formato do teste
     /**
      * @dataProvider valueProvider
      */

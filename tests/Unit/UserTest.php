@@ -17,8 +17,8 @@ class UserTest extends TestCase
         $pessoa = \App\Models\User::create([
             'username'=>'Admin User',
             'password'=>'12344534343',
-            'name'=>'toyota',
-            'surname'=>'2001',
+            'name'=>'teste',
+            'surname'=>'felps',
             'email'=>'branco@hotmail.com'
 
             
